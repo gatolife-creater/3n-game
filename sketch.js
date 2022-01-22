@@ -35,13 +35,6 @@ let move = 0;
 let giveup = "giveup?";
 let giveupa = 125; //alpha
 
-// bgm用
-let song;
-
-function preload() {
-    song = loadSound('assets/y2mate.com%20-%20GhostnGhost%20%20Sir%20Ghostington%20NCS%20Fanmade.mp3');
-}
-
 function setup() {
     createCanvas(400, 600);
     textAlign(CENTER);
